@@ -1,0 +1,48 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <!--type text for basic input-->
+        <label>First Name</label>     
+
+        <!--The name attribute ids what the what the input represents while placeholder gives-->
+        <input type="text" name="firstName" placeholder="first Name"/>
+
+        <label>Radio</label>
+        <input type="radio" name="radio"/>
+        
+        <label>Email</label>
+        <input type="email" name="email" placeholder="email"/>
+
+        <label>Password</label>
+        <input type="password" name="password" placeholder="password"/>
+
+        <label>Dropdown</label>
+        <!--Dropdown section-->
+        <select name="edu">
+        <option value="ns">North school</option>
+        <option value="ss">South school</option>
+        <option value="es">East school</option>
+        <option value="ws">West school</option>
+        <option value="nes">Northwest school</option>
+        <!-- options*5 tab to make options -->
+        </select>
+
+        <label>Text Area</label>
+        <textarea rows="25" cols="50" name="tweet" placeholder="bio"></textarea>
+
+        <label>Calendar</label>
+        <input type="date" name="timeofyear">
+
+        <button type="submit"> Apply</button>
+        <button type="button"> Click Here</button>
+        <button type="button" onclick="alert('hello world')">Click here</button>
+    </form>
+    
+</body>
+</html>
